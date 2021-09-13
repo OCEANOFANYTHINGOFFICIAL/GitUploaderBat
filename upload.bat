@@ -35,8 +35,6 @@ echo.
 set /p branch=Set Your Git Branch: 
 cd %dir%
 git init
-git lfs track "%ext%"
-git add .gitattributes
 git add .
 git commit -m "%com%"
 git branch -M %branch%
